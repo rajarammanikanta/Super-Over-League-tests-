@@ -1,0 +1,38 @@
+.bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0px;
+}
+.image {
+  height: 240px;
+  width: 240px;
+}
+.main-heading {
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .imagecontainer {
+    display: flex;
+    padding-top: 30px;
+  }
+  .image {
+    max-height: 90px;
+    max-width: 90px;
+  }
+  .main-heading {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    max-height: 340px;
+    max-width: 340px;
+  }
+}
